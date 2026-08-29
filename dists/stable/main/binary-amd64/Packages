@@ -1,0 +1,43 @@
+Package: max98390-hda-dkms
+Version: 1.0-202608292256
+Architecture: all
+Maintainer: ZypherOS <jaydenhanel@gmail.com>
+Depends: dkms, kmod, i2c-tools
+Recommends: linux-headers-amd64
+Filename: pool/main/max98390-hda-dkms_1.0-202608292256_all.deb
+Size: 16826
+MD5sum: 333ad83e3fdcbb85bff4424e525b2406
+SHA1: ac80deeb74640836cf53b600e8b7dbf7145d7c17
+SHA256: 2a741f9d46d901d87385bdb1eb70828c36f8ad95b13c6571180cc55dc8195d81
+Section: kernel
+Priority: optional
+Description: Lautsprecher des Samsung Galaxy Book5 Pro 360
+ Die beiden Kernelmodule, die die vier MAX98390-Verstaerker an HDA anbinden.
+ Der Kernel bringt den ASoC-Treiber snd-soc-max98390 mit, aber nicht die
+ HDA-Anbindung; fuer Cirrus und TI liegt sie bei, fuer Maxim nicht. Ohne diese
+ Module bleiben die Lautsprecher stumm.
+ .
+ Ueber DKMS, damit die Module bei jedem Kernelwechsel neu entstehen. Herkunft,
+ Lizenz und der offene Punkt Secure Boot stehen in HERKUNFT.md.
+
+Package: zde-shell
+Version: 0.1.0-17+202608292351
+Architecture: amd64
+Maintainer: ZypherOS <jaydenhanel@gmail.com>
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libkf6globalaccel6 (>= 6.0.0), liblayershellqtinterface6 (>= 6.1.0), libpulse0 (>= 0.99.1), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.2.0), libqt6network6 (>= 6.7.2), libqt6qml6 (>= 6.6.0), libqt6quick6 (>= 6.6.0), libstdc++6 (>= 5), libwayland-client0 (>= 1.20.0), layer-shell-qt, qt6-svg-plugins, qml6-module-qt5compat-graphicaleffects, libkf6service-bin, kwin-wayland, kglobalacceld
+Recommends: breeze-icon-theme, ca-certificates, network-manager-gnome
+Filename: pool/main/zde-shell_0.1.0-17+202608292351_amd64.deb
+Size: 447104
+MD5sum: 42554eb0f99ab4563d8d3c1ad2c0bb8e
+SHA1: ac5ca99591c036949930e695f89c590203b85d73
+SHA256: fb69fb1c399d8f92e43aa1b37f10fccebf3fb5cabd4af89e790e62be2a5fd578
+Section: x11
+Priority: optional
+Description: ZDE — die Oberfläche von ZypherOS
+ Panel mit Taskleiste, Systray, Wetter und Statusanzeigen, App-Drawer mit Suche,
+ Kalender- und Lautstärke-Panel sowie die Sitzung, die das alles auf KWin startet.
+ .
+ ZDE spricht ausschließlich Standardprotokolle (wlr-layer-shell, StatusNotifier,
+ NetworkManager-DBus, PipeWire), damit der Wechsel auf den eigenen Compositor in
+ ZypherOS 3.0 ein Austausch bleibt und keine Neuentwicklung wird.
+

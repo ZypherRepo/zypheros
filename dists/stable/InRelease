@@ -1,0 +1,37 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: ZypherOS
+Label: ZypherOS
+Suite: stable
+Codename: stable
+Architectures: amd64 arm64
+Components: main
+Description: ZypherOS 2.x — eigene Pakete
+Date: Sat, 29 Aug 2026 21:55:33 +0000
+MD5Sum:
+ 9d68c362ea77c8b3a37da9b51a8df011             2284 main/binary-amd64/Packages
+ 189c9818c4d3d1762d0b3dc13ef36dbb             1318 main/binary-amd64/Packages.gz
+ e9cf34add7fc83c192d88947f6b46e6c             2436 main/binary-arm64/Packages
+ 0cd7dd444d5e94388a8cb6b4d80f2bee             1400 main/binary-arm64/Packages.gz
+SHA256:
+ b1d827bb00dc223df2a718fd027a5ff7efac75a3e19d27bffa5f5bfc97e939f6             2284 main/binary-amd64/Packages
+ 552fcbac5ffbaea22e1a2a515211ec6472da39f439c14e6baefc79f26fafeb41             1318 main/binary-amd64/Packages.gz
+ add4abd36b496331fc488d2593bfba8f386547729c496047b66f28e742059d05             2436 main/binary-arm64/Packages
+ 1673277272ab626e1779f25e8905bc2b5b953f0d59da93553df4ae418895c6b4             1400 main/binary-arm64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEELTFmgK3lnBRNOHMepHbW8B8bib0FAmqTVVUACgkQpHbW8B8b
+ib1bsw/+O/SF+j3hRVkWzMEQKq4/548ass9wbpECSl/K/0Or4BotKJS6UG09FZy3
+6r+VJanWZaf9m8wZxLIEZ7qEirUxCMGcOAjB2SXZYtdn/CekPIuse+qorGLaMCgJ
+BSMQe2cz0hU0rUMX9mIWJgTE5iegLR8tMTCWU6SLHRldyzVAMU9wHK7GD5Jbo+p4
+UPxpsLKt3IWuoCxPa186WywsaGMzt4XfYxX2aAYmjn4hGTAqp7RniFf2zV37zv9B
+h8tr9C0KyWxYlt2ymQ7Vso2+JnvXW35Mxy/RL76jbfquk3/1p6+9AVAsaQ0OrV0c
+XL1Ms/Je2bYi+FzFFh8BtY+icwq97ckxVJeI4zQR915oX3y9x5Umbte0E7XbaNdH
+rFPfDmm/K1fFyoiXydawD8vOwFlAI6JJQeYIoOHrba/ea9hIDoFDNbMWX070C5l2
+hSx3qusfZRL3+DZZ6VU5bq4fTD1TRnLRa9IkfDuWDyJKjzfGaPpAIacPxAwuEJRu
+XRRUJA+bmLtZ38gmXcYuZzLWmBG/DmYLQIxSJCu4DhE2erm7aGWo2mmPkqpSJznX
+TphcH3VUP8ROuFt4et6P2ZXpBCaPFg3rJlcsmmRu2n4uTfxarKrR+zQWS2RY2Amc
+pWwrVhji2FvHl2d8CTkgFGaFOmsMTDKtIN+VJPiNPAEZB8oZJ98=
+=NLwa
+-----END PGP SIGNATURE-----
